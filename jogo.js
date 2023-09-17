@@ -169,7 +169,6 @@ function criaFlappyBird() {
                 setTimeout(() => {
                     mudaParaTela(telas.INICIO)
 
-
                 }, 500);
                 return;
 
@@ -187,11 +186,18 @@ function criaFlappyBird() {
         frameAtual: 0,
 
         atualizaOFrame() {
+            const intervaloDeFrames = 10;
+            const passouDoIntervalo = frames % intervaloDeFrames ===0;
+            if(passouDoIntervalo) {
+                // deixa a batida de asas mais pausada
+
             const inicio = 1;
             const incremento = inicio + flappyBird.frameAtual;
             const baseRepeticao = flappyBird.movimentos.length;
             flappyBird.frameAtual = incremento % baseRepeticao;
 
+            }
+            
         },
         desenha() {
             flappyBird.atualizaOFrame()
