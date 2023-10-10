@@ -1,5 +1,3 @@
-console.log('[DevSoutinho] Flappy Bird');
-console.log('Inscreva-se no canal :D https://www.youtube.com/channel/UCzR2u5RWXWjUh7CwLSvbitA');
 
 let frames = 0;
 const som_HIT = new Audio();
@@ -196,6 +194,7 @@ const mensagemGameOver = {
       mensagemGameOver.w, mensagemGameOver.h,
       mensagemGameOver.x, mensagemGameOver.y,
       mensagemGameOver.w, mensagemGameOver.h
+      
     );
   }
 }
@@ -321,6 +320,7 @@ function criaPlacar() {
       }
     }
   }
+  console.log(placar);
   return placar;
 }
 
