@@ -2,7 +2,7 @@
 
 Projeto da a série de vídeos no YouTube no canal DevSoutinho ensinando a fazer um jogo com JavaScript do ZERO!
 
-Foi utiliado o [Canvas API](URL "[Título do link](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)") para animações e manipulação do jogo.
+Foi utiliado o [Canvas API](URL "[Título do link](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) para animações e manipulação do jogo.
 
 
 ## Próximos passos
