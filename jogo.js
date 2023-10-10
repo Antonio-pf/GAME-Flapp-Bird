@@ -179,6 +179,7 @@ const mensagemGetReady = {
   }
 }
 
+
 // [mensagemGameOver]
 const mensagemGameOver = {
   sX: 134,
@@ -187,6 +188,7 @@ const mensagemGameOver = {
   h: 200,
   x: (canvas.width / 2) - 226 / 2,
   y: 50,
+
   desenha() {
     contexto.drawImage(
       sprites,
@@ -196,6 +198,13 @@ const mensagemGameOver = {
       mensagemGameOver.w, mensagemGameOver.h
       
     );
+  
+    contexto.fillStyle = "Black";
+    contexto.font = "5px";
+    const padding = 10; 
+    const textX = mensagemGameOver.x + mensagemGameOver.w - padding - 10;
+    const textY = mensagemGameOver.y + mensagemGameOver.h / 2 ;   
+    contexto.fillText(`${globais.placar.pontuacao}`, textX, textY);
   }
 }
 
@@ -320,7 +329,7 @@ function criaPlacar() {
       }
     }
   }
-  console.log(placar);
+  
   return placar;
 }
 
