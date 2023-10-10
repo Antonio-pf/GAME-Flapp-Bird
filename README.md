@@ -10,4 +10,5 @@ Foi utiliado o [Canvas API](URL "[Título do link](https://developer.mozilla.org
 - [ ] Refatorar código.
 - [ ] Pensando....
 
-Aproveite e [jogue aqui](URL "[Título do link](https://antonio-pf.github.io/GAME-Flapp-Bird/)") a versão atual.
+Aproveite e [jogue aqui](https://antonio-pf.github.io/GAME-Flapp-Bird/)
+ a versão atual.
